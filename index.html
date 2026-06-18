@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ฟอร์มสมัครสมาชิก</title>
+</head>
+<body>
+    <h1>ฟอร์มสมัครสมาชิก</h1>
+    <acton="atom" method="post">
+        <!-- ชื่อ -->
+        ชื่อ: <input type="text"  required><br>
+        <!-- นามสกุล -->
+        นามสกุล: <input type="text"  required><br>
+        <!-- อีเมล -->
+        อีเมล: <input type="email"  required><br>
+        <!-- รหัสผ่าน -->
+        รหัสผ่าน: <input type="password"  required><br>
+        <!-- เพศ -->
+        เพศ: <input type="radio" name="gender" value="male" required> ชาย
+              <input type="radio" name="gender" value="female" required> หญิง
+                <input type="radio" name="gender" value="other" required> อื่นๆ<br>
+                <!--select-->
+                ระดับการศึกษา: 
+               <select>
+                <option value="highschool">ม.1</option>
+                <option value="bachelor">ม.2</option>
+                <option value="master">ม.3</option>
+                <option value="doctorate">ม.4</option>
+                <option value="doctorate">ม.5</option>  
+                <option value="doctorate">ม.6</option>
+
+               </select><br>
+
+
+
+               <!--checkbox-->
+
+                <input type="checkbox" name="agree" required> ฉันยอมรับเงื่อนไขและข้อตกลง<br>
+                <input type="checkbox" name="subscribe" > ฉันต้องการรับข่าวสารและโปรโมชั่น<br>
+            <!--submit-->
+        <input type="submit" value="สมัครสมาชิก">
+
+                    
+</body>
+</html>  
